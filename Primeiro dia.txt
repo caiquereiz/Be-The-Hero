@@ -1,0 +1,63 @@
+Conhecendo a aplicação: Be The Hero:
+
+- Vai conectar pessoas que tem vontade de ajudar, de uma forma monetaria a ongs
+
+Cadastrar suas necessidades para que seja ajudado.
+
+------
+Configurar ambiente  de desenvolvimento :
+Node.Js=  basicamente é o motor do chrome que interpreta o javascript fora do navegador.
+
+- NPM= Gerenciador de pacotes.
+node -v versão
+npm -v versão 
+----
+Visual Studio Code: Editor de codigo
+Dracula
+Material icon theme
+-----------
+
+Entender sobre back-end & Front end
+
+back-end: Aquilo que o usuario não enxerga, onde fica as regras de negocio e a comunicação com o banco de dados, comunicação de serviços, autenticação do usuario, criptofrafia e segurança
+ 
+Front end 
+Web
+Mobile
+Serviços externos
+
+JSON: Estrutura de objeto 
+
+-------------------------------
+Criar projeto com Node.js
+Para criar projeto: npm init -y
+cria um arquivo package.json
+esse arquivo vem com varias propriedades e ele armazena as informações das dependencias do projeto.
+
+npm install express: Ajuda no quesito do sistema
+de rota
+envios de parametros  
+-------
+Inicia com o arquivo index.js: Arquivo principal, todo codigo da aplicação vai partir daqui.
+
+para importar funcionalidades para dentro do node: const
+listen: faz com que fique ouvindo  a rota.
+
+==============
+Entendendo sobre React e SPA:
+
+SPA: Single-page applications
+ --------------------
+Criando o projeto :
+npx create-react-app frontend
+
+Entender sobre o react native & Expo
+
+
+
+
+
+
+
+
+

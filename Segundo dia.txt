@@ -1,0 +1,67 @@
+Node.JS & Express
+
+** Rotas e recursos
+ex: localhost:3333/users > ROTA
+ex: users > RECURSO
+
+** Metodos HTTP
+GET: Buscar/listar uma informação do back-end
+POST: Criar uma informação no back-end
+PUT: Alterar uma informação no back-end
+DELETE: Deletar uma informação no back-end
+
+**Insominia 
+Requisições usando qualquer metodo HTTP.
+
+** Tipos de parametros
+Query Params: Parametros nomeados enviados na rota após o simbolo "?" (filtros, paginação)
+
+Route Params: Parametros utilizados para identificar recuros.
+
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+
+Configurar Nodemon: npm install nodemon - D
+
+Uma biblioteca que vai funcionar apenas enquanto tiver desenvolvendo:
+
+ai passamos a usar npm start no lugar de node index.js
+
+
+** Diferenças entre banco de dados:
+
+SQL: Mysql, SqLit, PostgreSQL, Oracle, Microsoft, SQL Server
+
+NoSQL: MongoDB, CouchDB, ect
+
+Configurações do banco de dados:
+
+* Driver: Select * From users
+*Query Builder: table('users').select ('*').where()
+
+knex:Ferramenta
+site: http://knexjs.org/
+No terminal : npm install knex
+Drive do banco utilizado: npm install sqlite3
+iniciar comunicação com banco: npm knex init ele cria um arquivo com todas as conexões com o banco de dados com varios ambientes.
+
+
+**Pensando nas entidades e funcionalidades:
+  *Entidade:
+	* Ong
+	* Caso(incident)
+   *Funcionalidades:
+	* Login De ONG
+	* Logout de ONG
+	* Cadastro de ONG
+	* Cadastrar novos casos
+	* Deletar casos
+	* Listar casos especificos de uma ONG
+	* Listar todos os casos
+	* Entrar em contato com a ONG
+
+
+** Migration: Criar tabela e manter o historico dasa tabelas criadas, deletada ou algum campo alterado.
+ 
+Criando arquivos migrations: npx knex migrate:make create_ongs
+Criando a tabela no migration: npx knex migrate:latest
+1:04:25
